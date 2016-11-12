@@ -3,9 +3,9 @@
 
 ##Download and boot ubuntu 14.04
 
-###Commands to build and install PPH
+###Commands to build and install PPH:
 
-**sudo apt-get update**
+  $ sudo apt-get update
 **sudo apt-get install git**
 **git clone https://github.com/PolyPasswordHasher/PolyPasswordHasher-C.git**
 **sudo apt-get install openssl**
