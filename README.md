@@ -39,4 +39,4 @@ To run the node server:
 ###To run test app:
 
 	$ export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
-	$ ./polypasswordhasher_example.out**
+	$ ./polypasswordhasher_example.out
