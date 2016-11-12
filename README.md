@@ -10,30 +10,32 @@ To run the node server:
   
 	$ sudo apt-get install git
 	
-	$git clone https://github.com/PolyPasswordHasher/PolyPasswordHasher-C.git
+	$ git clone https://github.com/PolyPasswordHasher/PolyPasswordHasher-C.git
 	
-	$sudo apt-get install openssl
+	$ sudo apt-get install openssl
 	
-	$sudo apt-get install libtool
+	$ sudo apt-get install libtool
 	
-	$sudo apt-get install check
+	$ sudo apt-get install check
 	
-	$sudo apt-get install libssl-dev
+	$ sudo apt-get install libssl-dev
 	
-	$cd PolyPasswordHasher-C
+	$ cd PolyPasswordHasher-C
 	
-	$autoreconf --install
+	$ autoreconf --install
 	
-	$./configure
+	$ ./configure
 	
-	$make
+	$ make
 	
-	$sudo make install //this will install library and copy the headers to /usr/local**
+	$ sudo make install //this will install library and copy the headers to /usr/local**
 
 
 ###Commands to build PPH TEST APP:
-	$make
+
+	$ make
+	
 ###To run test app:
 
-	$export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
+	$ export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
 	$ ./polypasswordhasher_example.out**
