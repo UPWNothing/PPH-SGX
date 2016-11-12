@@ -33,6 +33,7 @@ To run the node server:
 
 ###Commands to build PPH TEST APP:
 
+	$ cd ../PPH-SGX
 	$ make
 	
 ###To run test app:
