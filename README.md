@@ -4,7 +4,6 @@
 ##Download and boot ubuntu 14.04
 
 ###Commands to build and install PPH:
-###Running
 To run the node server:
 
 	$ sudo apt-get update
@@ -34,7 +33,7 @@ To run the node server:
 
 ###Commands to build PPH TEST APP:
 	$make
-//To run:
+###To run test app:
 
 	$export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
 	$ ./polypasswordhasher_example.out**
